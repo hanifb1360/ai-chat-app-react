@@ -1,0 +1,52 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+* {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: poppins;
+  
+
+}
+.grid-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin-top: 40px;
+}
+.grid-child {
+border: 1px solid whitesmoke;
+border-radius: 15px;
+padding: 10px;
+cursor: pointer;
+}
+.grid-child:hover {
+background-color: whitesmoke;
+color: #212121;
+}
+.grid-child h4{
+font-weight: 600;
+}
+.grid-child p{
+font-weight: 500;
+font-size: 15px;
+}
+.heading {
+color: whitesmoke;
+}
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+
+
