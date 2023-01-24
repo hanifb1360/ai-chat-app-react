@@ -1,7 +1,10 @@
+import React from "react";
+
 export default function OptionSelection({ arrayItems, selectOption }) {
   return (
     <>
-      <h1 className="heading">React chat app</h1>
+      <h1 className="heading">React AI APP</h1>
+
       <div className="grid-main">
         {arrayItems.map((item) => {
           return (
@@ -9,8 +12,8 @@ export default function OptionSelection({ arrayItems, selectOption }) {
               className="grid-child"
               onClick={() => selectOption(item.option)}
             >
-              <h4>{item.name}</h4>
-              <p>{item.desciption}</p>
+              <h3>{item.name}</h3>
+              <p>{item.description}</p>
             </div>
           );
         })}
